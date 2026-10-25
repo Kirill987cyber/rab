@@ -7,9 +7,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Тот самый header, где есть и корзина, и кнопка -->
   <header>
     <h1>Мой магазин</h1>
+    <div class="cart-info">
+      <div>Корзина: <span id="cart-count">0</span> шт. на <span id="cart-sum">0</span> ₽</div>
+      <button id="clear-cart-btn">Очистить корзину</button>
+    </div>
   </header>
+  
   <main>
     <div id="catalog" class="catalog"></div>
   </main>
